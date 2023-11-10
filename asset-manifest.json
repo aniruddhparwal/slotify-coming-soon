@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/slotify-coming-soon/static/css/main.fd433d4e.css",
+    "main.js": "/slotify-coming-soon/static/js/main.3150bd84.js",
+    "static/js/787.d16e9084.chunk.js": "/slotify-coming-soon/static/js/787.d16e9084.chunk.js",
+    "static/media/slotify-full.png": "/slotify-coming-soon/static/media/slotify-full.b3817d4a2fc5f6fffa2e.png",
+    "index.html": "/slotify-coming-soon/index.html",
+    "main.fd433d4e.css.map": "/slotify-coming-soon/static/css/main.fd433d4e.css.map",
+    "main.3150bd84.js.map": "/slotify-coming-soon/static/js/main.3150bd84.js.map",
+    "787.d16e9084.chunk.js.map": "/slotify-coming-soon/static/js/787.d16e9084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd433d4e.css",
+    "static/js/main.3150bd84.js"
+  ]
+}
