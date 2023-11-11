@@ -83,7 +83,8 @@ p {
 
 .logo{
   min-height: 2vw;
-  width: 10vw
+  width: 200px;
+  height: 100px !important;
 }
 
 .container1{

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ComingSoon.css";
-import logo from "./assets/slotify-full.png";
+import logo from "./assets/slotify-full-trans.png";
 // import instagram from "./assets/instagram.png";
 // import email from "./assets/email1.png";
 // import linkedin from "./assets/linkedin.png";
@@ -9,7 +9,7 @@ import logo from "./assets/slotify-full.png";
 const ComingSoon = () => {
   return (
     <div className="content">
-    {/* <div className="coming-soon-container">
+      {/* <div className="coming-soon-container">
       <img src={logo} alt="Logo" className="logo"/>
       <p className="message">Coming Soon...</p>
     </div>
@@ -27,38 +27,62 @@ const ComingSoon = () => {
         </a>
       </div>
     </div> */}
-    <header>
+      <header>
         <div class="container">
-            <nav class="navbar navbar-dark bg-transparenet">
-                <a class="navbar-brand" href="#">
-                  <img src={logo} alt="Logo" className="logo"/>
-                </a>
-                <span class="navbar-text d-none d-sm-inline-block">connect@slotify.live</span>
-            </nav>
+          <nav class="navbar navbar-dark bg-transparenet">
+            <a class="navbar-brand" href="#">
+              <img src={logo} alt="Logo" className="logo" height="20px" />
+            </a>
+            <span class="navbar-text d-none d-sm-inline-block">
+              connect@slotify.live
+            </span>
+          </nav>
         </div>
-    </header>
-    <main class="my-auto">
+      </header>
+      <main class="my-auto">
         <div class="container1">
-            <h1 class="page-title">We're coming soon</h1>
-            <p>Smart Booking: Say goodbye to hassles with our intelligent booking system.
-                Personalized Recommendations: Tailored suggestions based on your preferences.</p>
-            <p>Stay connected</p>
-            <nav class="footer-social-links">
-    
-                <a href="https://www.linkedin.com/company/slotify-live" class="social-link" target="_blank">
-                  <i class="mdi mdi-linkedin"></i></a>
+          <h1 class="page-title">We're coming soon</h1>
+          <p>
+            Smart Booking: Say goodbye to hassles with our intelligent booking
+            system. Personalized Recommendations: Tailored suggestions based on
+            your preferences.
+          </p>
+          <p>Stay connected</p>
+          <nav class="footer-social-links">
+            <a
+              href="https://www.linkedin.com/company/slotify-live"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="mdi mdi-linkedin"></i>
+            </a>
 
-                <a href="https://www.instagram.com/slotify.live/" class="social-link" target="_blank">
-                  <i class="mdi mdi-instagram"></i></a>
+            <a
+              href="https://www.instagram.com/slotify.live/"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="mdi mdi-instagram"></i>
+            </a>
 
-                <a href="https://twitter.com/slotify_live" class="social-link" target="_blank">
-                  <i class="mdi mdi-twitter"></i></a>
+            <a
+              href="https://twitter.com/slotify_live"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="mdi mdi-twitter"></i>
+            </a>
 
-                <a href="mailto:connect@slotify.live" class="social-link" target="_blank">
-                  <i class="mdi mdi-email"></i></a>
-            </nav>
+            <a
+              href="mailto:connect@slotify.live"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="mdi mdi-email"></i>
+            </a>
+          </nav>
         </div>
-    </main>
+      </main>
     </div>
   );
 };
